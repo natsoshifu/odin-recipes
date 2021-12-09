@@ -1,0 +1,89 @@
+body {
+    margin: 0 auto;
+    width: 960px;
+    background-image: url("../css/img/repeated-square.png");
+    background-color: #fff;
+
+}
+
+.header {
+    background-color: #eb4e10;
+    padding: 20px;
+    float: left;
+    width: 960px;
+
+}
+
+.logo {
+    padding: 10px 20px;
+    font-family: Alfa Slab One;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menu {
+    padding: 10px 20px;
+    float: right;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    float: left;
+    padding: 10px 20px;
+    margin: 0 auto;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffff59;
+}
+
+.main {
+    width: 960px;
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.left {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+
+.left h1 {
+    font-size: 3.5em;
+}
+
+.fp-browse {
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffff59;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.right {
+    width: 60%;
+    float: right;
+    padding: 20px 0;
+}
+
+.right img {
+    width: 100%;
+}
