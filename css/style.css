@@ -87,3 +87,77 @@ body {
 .right img {
     width: 100%;
 }
+
+.rec-main {
+    width: 960px;
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+    float: left;
+}
+
+.rec-left {
+    float: left;
+    position: relative;
+}
+
+.rec-left ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.rec-left li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 25%;
+    background-color: #fff;
+    vertical-align: top;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    height: 370px;
+}
+
+.rec-img {
+    width: 100%;
+    height: 200px;
+}
+
+.rec-button {
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffff59;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.recipe-main {
+    width: 960px;
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+    float: left;
+}
+
+.recipe-desc {
+    padding: 0 20px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recipe-img {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recipe-img img {
+    width: 100%;
+}
